@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Userdefined Website - Demo</title>
+    </head>
+    <body style="background-color: rgb(100, 150, 218); color: rgb(50, 50, 50)">
+        <h1>Remote monitoring of PLC</h1>
+    <!--AWP_In_Variable Name='"Web".bool1'-->
+        <table style="width:618px; height:425px" border = "0">
+            <tbody>
+
+                <tr>
+                    <td class= "static_field_button">
+                        <form method="post" action=""><input style="height: 100px; width: 300px;"value="Turn On" type= "submit"><input name = '"web".bool1' value="1" type="hidden"></form>
+                    </td>  
+                </tr>
+
+                <tr>
+                    <td class= "static_field_button">
+                        <form method="post" action=""><input style="height: 100px; width: 300px;"value="Turn Off" type= "submit"><input name = '"web".bool1' value="0" type="hidden"></form>
+                    </td>  
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
